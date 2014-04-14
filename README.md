@@ -4,6 +4,8 @@ Sample for https://github.com/ansible/ansible/pull/6958
 
 Run it via `ansible-playbook -i inventory-local sample-play.yml`
 
+Ansible Version: 1.5.3
+
 Output:
 
 ```
