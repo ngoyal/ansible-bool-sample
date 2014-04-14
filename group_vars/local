@@ -1,0 +1,13 @@
+---
+samples:
+ - sample_path: /tmp/yes
+   sample_val: yes
+
+ - sample_path: /tmp/no
+   sample_val: yes
+
+ - sample_path: /tmp/true
+   sample_val: true
+
+ - sample_path: /tmp/false
+   sample_val: false
