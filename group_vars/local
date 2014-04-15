@@ -4,7 +4,7 @@ samples:
    sample_val: yes
 
  - sample_path: /tmp/no
-   sample_val: yes
+   sample_val: no
 
  - sample_path: /tmp/true
    sample_val: true
