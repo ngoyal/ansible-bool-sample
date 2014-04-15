@@ -6,4 +6,4 @@
     - sample:
         sample_path: "{{ item.sample_path }}"
         sample_val: "{{ item.sample_val }}"
-      with_items: $samples
+      with_items: samples
