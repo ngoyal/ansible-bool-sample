@@ -17,8 +17,8 @@ ok: [localhost]
 TASK: [sample ] ***************************************************************
 failed: [localhost] => (item={'sample_val': True, 'sample_path': '/tmp/yes'}) => {"failed": true, "item": {"sample_path": "/tmp/yes", "sample_val": true}}
 msg: value of sample_val must be one of: yes,on,1,true,1,no,off,0,false,0, got: True
-failed: [localhost] => (item={'sample_val': True, 'sample_path': '/tmp/no'}) => {"failed": true, "item": {"sample_path": "/tmp/no", "sample_val": true}}
-msg: value of sample_val must be one of: yes,on,1,true,1,no,off,0,false,0, got: True
+failed: [localhost] => (item={'sample_val': False, 'sample_path': '/tmp/no'}) => {"failed": true, "item": {"sample_path": "/tmp/no", "sample_val": false}}
+msg: value of sample_val must be one of: yes,on,1,true,1,no,off,0,false,0, got: False
 failed: [localhost] => (item={'sample_val': True, 'sample_path': '/tmp/true'}) => {"failed": true, "item": {"sample_path": "/tmp/true", "sample_val": true}}
 msg: value of sample_val must be one of: yes,on,1,true,1,no,off,0,false,0, got: True
 failed: [localhost] => (item={'sample_val': False, 'sample_path': '/tmp/false'}) => {"failed": true, "item": {"sample_path": "/tmp/false", "sample_val": false}}
